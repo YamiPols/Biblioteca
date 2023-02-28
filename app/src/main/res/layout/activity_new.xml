@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityNew">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Rellena los campos con la información del nuevo libro "
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        />
+    <EditText
+        android:id="@+id/idlib"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ID del libro"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/textView"
+        />
+    <EditText
+        android:id="@+id/namellib"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre del libro"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/idlib"
+        />
+    <EditText
+        android:id="@+id/editoriallib"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Editorial"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/namellib"
+        />
+    <EditText
+        android:id="@+id/pagelib"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Paginas"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/editoriallib"
+        />
+    <EditText
+        android:id="@+id/descriptionlib"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Breve descripcion"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/pagelib"
+        />
+    <Button
+        android:id="@+id/btnadd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Agregar"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/descriptionlib"
+        />
+</RelativeLayout>

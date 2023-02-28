@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeLib">
+
+    <Button
+        android:id="@+id/btnnew"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nuevo"
+        android:layout_marginTop="80dp"
+        android:layout_below="@+id/textView"
+        />
+    <Button
+        android:id="@+id/btnedit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Editar"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/btnnew"
+        />
+    <Button
+        android:id="@+id/btndelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Eliminar"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/btnedit"
+        />
+    <Button
+        android:id="@+id/btnstudents"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ver estudiantes"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/btndelete"
+        />
+
+    <Button
+        android:id="@+id/btnout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnstudents"
+        android:layout_marginTop="50dp"
+        android:text="Salir" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Elige la accion que desees realizar:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+</RelativeLayout>
